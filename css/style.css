@@ -1,0 +1,333 @@
+/* --------- -I--N--D--E--X- --------- */
+
+:root {
+    --index-link-color: #2196F3;
+}
+
+:root {
+    --index-first-bg: #2F303A;
+}
+
+:root {
+    --index-font-color: #212121;
+}
+
+:root {
+    --index-first-font-color: #757575;
+}
+
+:root {
+    --index-second-font-color: rgba(255, 255, 255, 0.6);
+}
+
+:root {
+    --index-third-font-color: #ffffff;
+}
+
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    color: #212121;
+}
+
+
+/* --- I-N-D-E-X- -H-E-A-D-E-R --- */
+.index-upper-logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.index-top-web {
+    color: var(--index-link-color);
+}
+
+.index-nav {
+    font-size: 14px;
+    line-height: 1.14em;
+    font-weight: 500;
+}
+
+.index-blue-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-blue-link:hover,
+.index-blue-link:focus {
+    color: var(--index-link-color);
+}
+
+.index-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-header-contacts a {
+    font-size: 14px;
+    line-height: 1.14em;
+    color: var(--index-first-font-color);
+    text-decoration: none;
+}
+
+.index-header-contacts a:hover[href="mailto:info@devstudio.com"],
+.index-header-contacts a:focus[href="mailto:info@devstudio.com"] {
+    color: var(--index-link-color);
+}
+
+/* --- I-N-D-E-X- -H-E-A-D-E-R --- */
+
+
+/* --- I-N-D-E-X- -M-A-I-N --- */
+.index-main-header {
+    background-color: var(--index-first-bg);
+}
+
+.index-h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--index-third-font-color);
+    line-height: 1.36em;
+}
+
+.index-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 700;
+    color: var(--index-third-font-color);
+    background-color: var(--index-link-color);
+}
+
+.index-loremipsum h3 {
+    font-size: 14px;
+    line-height: 1.142em;
+}
+
+.index-loremipsum p {
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--index-first-font-color);
+}
+
+.index-about>h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+}
+
+.index-team>h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+}
+
+.index-team h4 {
+    font-size: 16px;
+    line-height: 1.1875em;
+}
+
+.index-team p {
+    font-size: 16px;
+    line-height: 1.1875em;
+    color: var(--index-first-font-color);
+}
+
+/* --- I-N-D-E-X- -M-A-I-N --- */
+
+/* --- I-N-D-E-X- -F-O-O-T-E-R --- */
+.index-bottom-logo {
+    color: var(--index-third-font-color);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.index-bottom-web {
+    color: var(--index-link-color);
+
+}
+
+footer {
+    background-color: var(--index-first-bg);
+}
+
+address {
+    color: var(--index-third-font-color);
+    font-size: 14px;
+    line-height: 1.714em;
+}
+
+.index-footer-contacts a {
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--index-second-font-color);
+    text-decoration: none;
+}
+
+/* --- I-N-D-E-X- -F-O-O-T-E-R --- */
+
+/* --------- -I--N--D--E--X- --------- */
+
+
+
+/* --------- -P--O--R--T--F--O--L--I--O- --------- */
+
+:root {
+    --portfolio-link-color: #2196F3;
+}
+
+:root {
+    --portfolio-first-bg: #2F303A;
+    ;
+}
+
+:root {
+    --portfolio-second-bg: #E5E5E5;
+}
+
+:root {
+    --portfolio-third-bg: #F5F4FA;
+}
+
+:root {
+    --portfolio-first-font-color: #757575;
+}
+
+:root {
+    --portfolio-second-font-color: rgba(255, 255, 255, 0.6);
+}
+
+:root {
+    --portfolio-third-font-color: #ffffff;
+}
+
+
+
+/* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
+.portfolio-upper-logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.portfolio-upper-web {
+    color: var(--portfolio-link-color);
+}
+
+.portfolio-blue-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.142em;
+    font-weight: 500;
+    color: var(--portfolio-link-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    line-height: 1.142em;
+    font-weight: 500;
+}
+
+.portfolio-header-contacts {
+    font-size: 14px;
+    line-height: 1.1428em;
+    font-weight: 500;
+}
+
+.portfolio-header-contacts a {
+    font-size: 14px;
+    line-height: 1.1428em;
+    font-weight: 500;
+    color: var(--portfolio-first-font-color);
+    text-decoration: none;
+}
+
+/* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
+
+
+/* --- -P-O-R-T-F-O-L-I-O- -M-A-I-N --- */
+.portfolio-main-header {
+    background-color: var(--portfolio-second-bg);
+}
+
+.portfolio-first-button {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.625em;
+    background-color: var(--portfolio-link-color);
+}
+
+.portfolio-first-button:hover,
+.portfolio-first-button:focus {
+    color: var(--portfolio-third-font-color);
+}
+
+.portfolio-button {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.625em;
+    background-color: var(--portfolio-third-bg);
+}
+
+.portfolio-signedphotos h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.portfolio-signedphotos p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875em;
+    color: var(--portfolio-first-font-color);
+}
+
+/* --- -P-O-R-T-F-O-L-I-O- -M-A-I-N --- */
+
+/* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
+.portfolio-bottom-logo {
+    color: var(--portfolio-third-font-color);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.portfolio-bottom-web {
+    color: var(--portfolio-link-color);
+}
+
+footer {
+    background-color: var(--portfolio-first-bg);
+}
+
+address {
+    color: var(--portfolio-third-font-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+}
+
+.portfolio-footer-contacts a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--portfolio-second-font-color);
+    text-decoration: none;
+}
+
+.portfolio-footer-contacts li:first-child {
+    text-decoration: underline;
+}
+
+/* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
+
+/* --------- -P--O--R--T--F--O--L--I--O- --------- */
