@@ -31,6 +31,10 @@ body {
 
 
 /* --- I-N-D-E-X- -H-E-A-D-E-R --- */
+.index-container{
+    width: 1200px;
+}
+
 .index-upper-logo {
     color: inherit;
     text-decoration: none;
