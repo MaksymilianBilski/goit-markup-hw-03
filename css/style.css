@@ -300,10 +300,11 @@ figure {
 /* --- I-N-D-E-X- -M-A-I-N --- */
 
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
-.index-footer1 .container {
+.index-footer1 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     padding: 0 84px;
     background-color: var(--index-first-bg);
 }
