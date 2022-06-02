@@ -85,12 +85,6 @@ figure {
     border-bottom: 1px solid #ECECEC;
 }
 
-/* .index-header-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .index-header .container {
     display: flex;
     align-items: center;
@@ -108,6 +102,10 @@ figure {
 
 .index-top-web {
     color: var(--index-link-color);
+}
+
+.index-header-div {
+    margin-right: 300px;
 }
 
 .index-nav {
@@ -437,6 +435,10 @@ figure {
 
 .portfolio-upper-web {
     color: var(--portfolio-link-color);
+}
+
+.portfolio-header-div{
+    margin-right: 300px;
 }
 
 .portfolio-nav {
