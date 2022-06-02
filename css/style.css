@@ -81,11 +81,20 @@ figure {
 }
 
 /* --- I-N-D-E-X- -H-E-A-D-E-R --- */
-.index-header1 .container {
+.index-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* .index-header-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.index-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
     padding: 24px 0 25px 0;
 }
 
@@ -151,8 +160,11 @@ figure {
 
 
 /* --- I-N-D-E-X- -M-A-I-N --- */
-.index-main-header .container {
+.index-main-header {
     background-color: var(--index-first-bg);
+}
+
+.index-main-header .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,12 +240,15 @@ figure {
     padding-right: 30px;
 }
 
+.index-team {
+    background-color: var(--index-bg);
+}
+
 .index-team .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--index-bg);
     padding-bottom: 50px;
 }
 
@@ -242,6 +257,7 @@ figure {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 
 .index-team-list li {
@@ -300,13 +316,16 @@ figure {
 /* --- I-N-D-E-X- -M-A-I-N --- */
 
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
-.index-footer1 .container{
+.index-footer {
+    background-color: var(--index-first-bg);
+}
+
+.index-footer1 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0 84px;
-    background-color: var(--index-first-bg);
 }
 
 .index-bottom-logo {
@@ -395,11 +414,14 @@ figure {
 }
 
 /* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
-.portfolio-header1 .container {
+.portfolio-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.portfolio-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
     padding: 25px 0 24px 0;
 }
 
@@ -547,15 +569,15 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
 .portfolio-footer {
     background-color: var(--portfolio-first-bg);
-    width: 1200px;
-    margin: 0 auto;
+
 }
 
 .portfolio-footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 84px;
+    align-items: flex-start;
+    padding: 0 84px;
 }
 
 .portfolio-bottom-logo {
