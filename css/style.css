@@ -160,6 +160,9 @@ figure {
 /* --- I-N-D-E-X- -M-A-I-N --- */
 .index-main-header {
     background-color: var(--index-first-bg);
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
 }
 
 .index-main-header .container {
@@ -212,11 +215,17 @@ figure {
     color: var(--index-first-font-color);
 }
 
+.index-about{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .index-about .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 94px;
 }
 
 .index-about-list {
@@ -240,6 +249,8 @@ figure {
 
 .index-team {
     background-color: var(--index-bg);
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .index-team .container {
@@ -316,6 +327,8 @@ figure {
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
 .index-footer {
     background-color: var(--index-first-bg);
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .index-footer1 .container {
@@ -323,7 +336,6 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 84px;
 }
 
 .index-bottom-logo {
