@@ -426,6 +426,8 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
 .portfolio-header {
     border-bottom: 1px solid #ECECEC;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .portfolio-header .container {
@@ -583,7 +585,8 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
 .portfolio-footer {
     background-color: var(--portfolio-first-bg);
-
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .portfolio-footer .container {
@@ -591,7 +594,6 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 84px;
 }
 
 .portfolio-bottom-logo {
