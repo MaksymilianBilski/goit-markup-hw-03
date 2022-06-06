@@ -160,7 +160,6 @@ figure {
 /* --- I-N-D-E-X- -M-A-I-N --- */
 .index-main-header {
     background-color: var(--index-first-bg);
-    width: 1600px;
     display: flex;
     margin: 0 auto;
 }
@@ -216,7 +215,6 @@ figure {
 }
 
 .index-about{
-    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -249,7 +247,6 @@ figure {
 
 .index-team {
     background-color: var(--index-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -327,7 +324,6 @@ figure {
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
 .index-footer {
     background-color: var(--index-first-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -426,7 +422,6 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
 .portfolio-header {
     border-bottom: 1px solid #ECECEC;
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -585,7 +580,6 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
 .portfolio-footer {
     background-color: var(--portfolio-first-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
